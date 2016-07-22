@@ -1,7 +1,7 @@
 package plugin
 
 import (
-	"gohan.to/doi/udfsensor"
+	"github.com/d0i/udfsensor.git"
 	"gopkg.in/sensorbee/sensorbee.v0/bql"
 	"gopkg.in/sensorbee/sensorbee.v0/bql/udf"
 )
