@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/codegangsta/cli"
-	_ "github.com/d0i/udfsensor"
+	_ "github.com/d0i/udfsensor/plugin"
 	_ "gopkg.in/sensorbee/sensorbee.v0/bql/udf/builtin"
 	"gopkg.in/sensorbee/sensorbee.v0/cmd/lib/exp"
 	"gopkg.in/sensorbee/sensorbee.v0/cmd/lib/run"

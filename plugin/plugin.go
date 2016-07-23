@@ -2,7 +2,7 @@ package plugin
 
 import (
 	"github.com/d0i/udfsensor"
-	"gopkg.in/sensorbee/sensorbee.v0/bql"
+	_ "gopkg.in/sensorbee/sensorbee.v0/bql"
 	"gopkg.in/sensorbee/sensorbee.v0/bql/udf"
 	"fmt"
 )
@@ -10,6 +10,6 @@ import (
 func init() {
 	udf.MustRegisterGlobalUDSFCreator("us_sensor",
 		udf.MustConvertToUDSFCreator(udfsensor.CreateSensor))
-	fmt.printf("registered us_sensor")
+	fmt.Println("registered us_sensor")
 }
 	
