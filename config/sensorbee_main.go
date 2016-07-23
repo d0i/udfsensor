@@ -1,9 +1,8 @@
-//copied from wordcount tutrial (without understanding it)
 package main
 
 import (
 	"github.com/codegangsta/cli"
-	_ "github.com/sensorbee/tutorial/wordcount/plugin"
+	_ "github.com/d0i/udfsensor"
 	_ "gopkg.in/sensorbee/sensorbee.v0/bql/udf/builtin"
 	"gopkg.in/sensorbee/sensorbee.v0/cmd/lib/exp"
 	"gopkg.in/sensorbee/sensorbee.v0/cmd/lib/run"
